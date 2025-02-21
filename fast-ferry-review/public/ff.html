@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shift Change Review</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <button class="hamburger" aria-label="Menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="data.html">Data Analysis</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <body>
+        <div class="container">
+            <h1>Fast Ferry Business Case</h1>
+            
+            <div class="section">
+                <h2>Current Situation</h2>
+                <div class="current-stats">
+                    <div class="stat-item">
+                        <p>Site roster changes have led to increased losses due to fleet parking during Crew Change over days</p>
+                    </div>
+                    <div class="stat-item">
+                        <p>Current fleet parking duration averages over 2 hours during shift transitions</p>
+                    </div>
+                    <div class="stat-item">
+                        <p>Fleet parking affects critical mining equipment including haul trucks, excavators, and support vehicles</p>
+                    </div>
+                </div>
+                
+                <h3>Travel Times</h3>
+                <ul class="benefits-list">
+                    <li>Original crossing time: 30 minutes</li>
+                    <li>Fast ferry crossing time: 15 minutes</li>
+                    <li>Time saved per direction: 15 minutes</li>
+                </ul>
+                <p>Despite faster transit times, commuter schedules have been adjusted forward by 15 minutes when fast ferry was in operation</p>
+            </div>
+    
+            <div class="section">
+                <h2>Opportunity Analysis</h2>
+                <h3>Proposed Long-Term Solution</h3>
+                <ul class="benefits-list">
+                    <li>Permanently maintain the fast ferry service</li>
+                    <li>Revert employee start/end times to original schedule (slow ferry timing)</li>
+                </ul>
+    
+                <h3>Benefits</h3>
+                <ul class="benefits-list">
+                    <li>Generates an additional 30 minutes of productive work time on shift swap days</li>
+                    <li>Maximises the advantage of reduced crossing times</li>
+                    <li>Potential to minimise fleet parking losses during shift changes</li>
+                </ul>
+            </div>
+    
+            <div class="section">
+                <h2>Potential Alternatives</h2>
+                
+                <div class="option-card">
+                    <h3>Option 1: Modify Crew Change Times</h3>
+                    <ul class="benefits-list">
+                        <li>Adjust shift changeover schedules to optimise ferry usage and minimise operational downtime</li>
+                        <li>This approach maintains current accommodation arrangements while focusing on schedule optimisation</li>
+                        <li>Reduce fleet parking duration during shift transitions</li>
+                    </ul>
+                </div>
+    
+                <div class="option-card">
+                    <h3>Option 2: Return to Previous Accommodation Model and 4 Crews</h3>
+                    <h4>Dayshift Crews:</h4>
+                    <ul class="benefits-list">
+                        <li>Travel to camp the night before their shift begins</li>
+                        <li>Replicates the successful arrangement from the previous lifestyle roster</li>
+                    </ul>
+                    
+                    <h4>Nightshift Crews:</h4>
+                    <ul class="benefits-list">
+                        <li>Travel to site in the morning before their shift</li>
+                        <li>Allows for more flexible ferry scheduling and reduced congestion</li>
+                    </ul>
+                    
+                    <h4>Benefits:</h4>
+                    <ul class="benefits-list">
+                        <li>Reduces morning and evening ferry congestion</li>
+                        <li>Provides more consistent workforce availability</li>
+                        <li>Reduce fleet parking duration during shift transitions</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>If you're interested in working together or just want to say hi, feel free to reach out!</p>
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter Your Name"
+                            required
+                            minlength="2"
+                            autocomplete="name"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email"
+                            required
+                            autocomplete="email"
+                        >
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Your Message"
+                            required
+                            minlength="10"
+                        ></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="socials">
+            <a href="https://github.com/kirbyalise"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Visit my GitHub profile">
+                <img src="img/github.png" alt="" class="social" width="60" height="60">
+            </a>
+            <a href="https://www.linkedin.com/in/kirby-thomson/"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Visit my LinkedIn profile">
+                <img src="img/linkedin.png" alt="" class="social" width="60" height="60">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
